@@ -1,0 +1,1686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite id="149850" name="Carabas Roxana" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="154587" name="Smoke testing" >
+<node_order><![CDATA[6]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="153229" name="Register functionality" >
+<node_order><![CDATA[0]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="149851" name="Register an account with valid email and password">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[22]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify that the user can create an account.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>The https://www.sinsay.com/ro/ro/ should be open in the browser.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Cont&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Inregistreaza-te&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Enter a valid email and password</p>
+
+<p>e.g</p>
+
+<ul>
+	<li>email: t760389@gmail.com</li>
+	<li>first name: a</li>
+	<li>last name: a</li>
+	<li>password: 123456</li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Creeaza cont&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>An account is created.<br />
+The user is redirected to the main page.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="153228" name="Login functionality" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="149994" name="Login an user using valid credentials">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[23]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify that the user can log in to the application.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>The user has an existing account.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Cont&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Enter a valid email and password</p>
+
+<p>e.g</p>
+
+<ul>
+	<li>email: test@test.ro</li>
+	<li>password: parola</li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Intra in cont&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The user is redirected to the main page.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="150023" name="Login using facebook">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[26]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify that the user can log in using Facebook.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Cont&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Logare cu Facebook&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The user is redirected to the facebook log in page.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Add a valid email and password</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Continua ca&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The user is redirected to the main page.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="153230" name="Search functionality" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="150042" name="Search an existing product">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[27]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify that the user receives results according to the search.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Cauta un produs&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Enter an existing product e.g &quot;ceas&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Cautare ceas&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The user only receives watches as a result.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="153231" name="Cart functionality" >
+<node_order><![CDATA[3]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="153441" name="Add a product to the shopping bag">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[117]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify that the user can add a product to the shopping bag.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;Femei&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Rochii&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The user receives only dresses as result.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Rochie mini cu snur decorativ&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Select size &quot;XS&quot; color &quot;galben&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Adauga 29,99 RON&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The product is added to the shopping bag.<br />
+The user receives a message with two options &quot;Catre cos&quot; and &quot;Continuati cumparaturile&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="150094" name="The quantity is updated when adding the same product to shopping bag">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[30]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify that the quantity and price is updated when adding the same product to the shopping bag.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>&quot; Rochie mini cu snur decorativ &quot; color &quot;galben&quot; and size &quot;XS&quot; is already in the shopping bag.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;Femei&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Rochii&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The user receives only dresses.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot; Rochie mini cu snur decorativ &quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Select size &quot;XS&quot; and color &quot;galben&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Adauga 29,99 RON&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The quatity and price is updated.</p>
+
+<p>The user receives a message with two options &quot;Catre cos&quot; and &quot;Continuati cumparaturile&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="150071" name="A new entry is added to the shopping bag when the size and color are different">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[29]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify that when adding the same product with a different size and color a new entry is added to the shopping cart</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;Femei&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Rochii&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The user receives only dresses.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot; Rochie mini cu snur decorativ &quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Select size &quot;XXS&quot; and color &quot;albastru&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Adauga 29,99 RON&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A new line is added in the shopping bag.<br />
+The price is updated.</p>
+
+<p>The user receives a message with two options &quot;Catre cos&quot; and &quot;Continuati cumparaturile&quot;.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="150120" name="A product is deleted when clicking on &quot;trash&quot; button">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[31]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify that a product is deleted when clicking on &quot;trash bin&quot; button from shopping bag.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>&quot; Rochie mini cu snur decorativ &quot; color &quot;galben&quot; size &quot;XS&quot; is already in the shopping bag.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Cos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Sterge&quot; button</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The product is deleted from shopping bag.</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="153258" name="Add a valid discount coupon">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[111]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the user can add a valid discount coupon.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>The user is logged in with:</p>
+
+<ul>
+	<li>email: t760389@gmail.com</li>
+	<li>password: 123456</li>
+</ul>
+
+<p>&quot;Rochie mini cu snur decorativ&quot; color &quot;albastru-pal&quot; and size &quot;XXS&quot; is already in the shopping bag.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on&nbsp; &quot;Cos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Enter &quot;EXTRA15RO&quot; and click &quot;Adauga&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The price is updated.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="153232" name="Checkout and Payment functionality" >
+<node_order><![CDATA[4]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="153266" name="Order a product with cash on delivery">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[113]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the user can succesfully order a product</p>
+]]></summary>
+	<preconditions><![CDATA[<p>The user is logged in with:</p>
+
+<ul>
+	<li>email: t760389@gmail.com</li>
+	<li>password: 123456</li>
+</ul>
+
+<p>&quot;Rochie mini cu snur decorativ&quot; color &quot;albastru-pal&quot; and size &quot;XXS&quot; is already in the shopping bag.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Cos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Finalizeaza comanda&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select &quot;Curier-Plata livrare&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Select &quot;Plata la livrare&quot; with:</p>
+
+<ul>
+	<li>first name: a</li>
+	<li>last name: a</li>
+	<li>postal code: 1234</li>
+	<li>city: iasi</li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Comanda si achita&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A message &quot;Comanda a fost plasata&quot; appears.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="153273" name="Order a product with online pay">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[114]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the use can succesfully order an product with online pay.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>The user is logged in with:</p>
+
+<ul>
+	<li>email: t760389@gmail.com</li>
+	<li>password: 123456</li>
+</ul>
+
+<p>&quot;Rochie mini cu snur decorativ&quot; color &quot;albastru-pal&quot; and size &quot;XXS&quot; is already in the shopping bag.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Cos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Finalizeaza comanda&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Select the shipping method e.g Ridicare din magazin</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Select the desired shop e.g &quot;Șoseaua București-Ploiești Km. 20 077015 Balotești&quot; and click on &quot;Alege&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A modal/dialog with client details appears.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Enter the client details</p>
+
+<p>e.g</p>
+
+<ul>
+	<li>first name: a</li>
+	<li>last name: a</li>
+	<li>phone: 123456789</li>
+</ul>
+
+<p>&nbsp;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[6]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Salveaza&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[7]]></step_number>
+	<actions><![CDATA[<p>Select the desired payment e.g &quot;Visa/Mastercard&quot;</p>
+
+<ul>
+	<li>
+	<p>VISA</p>
+	</li>
+	<li>
+	<p>4929592152100893</p>
+	</li>
+	<li>
+	<p>6/2026</p>
+	</li>
+	<li>
+	<p>705</p>
+
+	<p>&nbsp;</p>
+	</li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[8]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Cumpara si achita&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The user is redirected to the bank app to confirm the payment.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="154044" name="Account functionality" >
+<node_order><![CDATA[5]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="154160" name="User profile update">
+	<node_order><![CDATA[1000]]></node_order>
+	<externalid><![CDATA[244]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the user can update the information in their profile.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>The user is logged in.</p>
+
+<p>e.g</p>
+
+<p>email: t760389@gmail.com</p>
+
+<p>password: 123456</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;Cont&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p><br />
+Click on &quot;Datele mele&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Update the e-mail address e.g a@a.ri</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Salveaza modificarile&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The profile information is succesfully updated and displayed correctly in the user&#39;s account.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="154172" name="Loggout from account">
+	<node_order><![CDATA[1001]]></node_order>
+	<externalid><![CDATA[245]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the user can log out from their account.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>The user is logged in.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;Cont&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Delogare&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The user is logged out from the account and redirected to the main page.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite></testsuite><testsuite id="154596" name="Functional testing" >
+<node_order><![CDATA[7]]></node_order>
+<details><![CDATA[]]></details> 
+<testsuite id="154741" name="Register functionality" >
+<node_order><![CDATA[1]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="153248" name="Register an account with invalid email and password">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[109]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if an user can register using invalid credentials.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;Cont&quot; and click on &quot;Inregistreaza-te&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Enter invalid credentials</p>
+
+<p>e.g</p>
+
+<ul>
+	<li>email: testtest.com</li>
+	<li>first name: a12</li>
+	<li>last name: a12</li>
+	<li>password: 1</li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Creeaza cont&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A message &quot;Contul nu poate fi creat. Caractere invalide&quot; appears.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="154743" name="Login functionality" >
+<node_order><![CDATA[2]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="153244" name="Login an user with invalid email and password">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[108]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the user can login using invalid credentials.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;Cont&quot; and click on &quot;Conecteaza-te&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Enter invalid credentials</p>
+
+<p>e.g</p>
+
+<ul>
+	<li>email: testt.com</li>
+	<li>password: 123</li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[<p>A message &quot;Acest cont nu exista&quot; appears.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="153240" name="Login an user with a valid email and an invalid password">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[107]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if an user can login with an invalid password.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>The user already has an account.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;Cont&quot; and click on &quot;Conecteaza-te&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Enter &quot;test@test.ro&quot; e-mail and &quot;123&quot; for password</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A message &quot;Logare sau parolă nevalidă.&quot; appears.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="153233" name="Verify forgot password functionality">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[105]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the user can request and receives a valid password reset link in case of a forgotten password.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>The user already has an account.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;Cont&quot; and click on &quot;Conecteaza-te&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Mi-am uitat parola&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A modal/dialog appears.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Add a valid email address</p>
+
+<p>e.g: t760389@gmail.com</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Trimite&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The user receives an e-mail with a link to change the password.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="154744" name="Language functionality" >
+<node_order><![CDATA[4]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="154598" name="Change the language">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[321]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the user can change the language.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;RO&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The user is redirected to the main page for changing the country.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="154745" name="Search functionality" >
+<node_order><![CDATA[5]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="153254" name="Search a non-existing product">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[110]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the user is gettimg results for a non-existing product</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Cauta produs&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Enter a non-existing product e.g &quot;bormasina&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A message &quot;Niciun rezultat&quot; appears.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="154700" name="Product details">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[341]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify that the product details page displays accurate information about a selected product.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Navigate to a product category e.g Femei - Rochii</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on a specific product to view its details e.g &quot;Rochie mini cu model&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The product details page shows the product&#39;s name, description, price and images.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="154746" name="Cart functionality" >
+<node_order><![CDATA[6]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="153262" name="Add an invalid discount coupon">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[112]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the user can use an invalid coupon.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>The user is logged in with:</p>
+
+<ul>
+	<li>email: t760389@gmail.com</li>
+	<li>password: 123456</li>
+</ul>
+
+<p>&quot;Rochie mini cu snur decorativ&quot; color &quot;albastru-pal&quot; and size &quot;XXS&quot; is already in the shopping bag.</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Cos&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Enter &quot;Minus70&quot; and click &quot;Adauga&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A message &quot;Cuponul introdus este invalid&quot; appears.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="154747" name="Account functionality" >
+<node_order><![CDATA[8]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="154693" name="Visualization of Orders">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[340]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify the functionality of visualizing the user&#39;s orders.</p>
+]]></summary>
+	<preconditions><![CDATA[<p>1. The user is logged, e.g</p>
+
+<ul>
+	<li>email: t760389@gmail.com</li>
+	<li>password: 123456</li>
+</ul>
+
+<p>2. At least one order must be placed and recorded in the user&#39;s account.</p>
+
+<p>&nbsp;</p>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;Cont&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Comenzile mele&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The orders are displayed from the mosdt recent to the oldest.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="154748" name="Filtering &amp; Sortening functionality" >
+<node_order><![CDATA[10]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="154646" name="Filter a dress by size">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[330]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the user can filter a dress by size.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;femei&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>On section &quot;imbracaminte&quot; click on &quot;rochii&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;marime&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;L&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Only dresses with size L appears.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="154622" name="Filter a dress by color">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[326]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the user can filter a dress by color.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;femei&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>On section &quot;imbracaminte&quot; click on &quot;rochii&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;culori&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;negru&quot;, &quot;roz&quot; , &quot;crem&quot; , &quot;maro&quot; , &quot;alb&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Only &quot;negru&quot;, &quot;roz&quot; , &quot;crem&quot; , &quot;maro&quot; , &quot;alb&quot; colors are displayed.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="154652" name="Filter a dress by price">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[331]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the user can effectively set a specific price range.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;femei&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>On section &quot;imbracaminte&quot; click on &quot;rochii&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;price&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Add</p>
+
+<ul>
+	<li>&quot;preturi de la&quot; : 30</li>
+	<li>&quot;preturi pana la&quot; : 60</li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Filtru&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The user receives dresses betwen 30-60 range.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="154612" name="Filter a dress by length">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[324]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the user can filter a dress by length.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;femei&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>On section &quot;imbracaminte&quot; click on &quot;rochii&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;lungime&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;maxi&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;filtru&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Only &quot;maxi&quot; length appears.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="154604" name="Filter a dress by type">
+	<node_order><![CDATA[4]]></node_order>
+	<externalid><![CDATA[323]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the user can search a dress using &quot;croi&quot; filtering.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;femei&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>On section &quot;imbracaminte&quot; click on &quot;rochii&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;croi&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;mulat&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>Only dresses with &quot;croi mulat&quot; type appears.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="154630" name="Sort a product in ascending order">
+	<node_order><![CDATA[5]]></node_order>
+	<externalid><![CDATA[327]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the user can sort a product in ascending order.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;femei&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>On section &quot;imbracaminte&quot; click on &quot;rochii&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;sortare dupa&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;pret crescator&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;sortare&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The dresses are sorted in ascending order.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="154637" name="Sort a product in descending order">
+	<node_order><![CDATA[6]]></node_order>
+	<externalid><![CDATA[328]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the user can sort a product in descending order.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Hover the mouse on &quot;femei&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>On section &quot;imbracaminte&quot; click on &quot;rochii&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;sortare dupa&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[4]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;pret descrescator&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[5]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;sortare&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The dresses are sorted in descending order.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite><testsuite id="154749" name="Main page functionality" >
+<node_order><![CDATA[11]]></node_order>
+<details><![CDATA[]]></details> 
+
+<testcase internalid="154688" name="Newsletter subscription and notification reception">
+	<node_order><![CDATA[0]]></node_order>
+	<externalid><![CDATA[339]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify the functionality of newsletter subscription and notification reception.</p>
+]]></summary>
+	<preconditions><![CDATA[<ol>
+	<li>Access to the Sinsay website</li>
+	<li>A valid email address for subscription</li>
+</ol>
+]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>On the main page, scroll to the bottom of the page</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Add&nbsp; a valid email address e.g &quot;t760389@gmail.com&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Click on &quot;Abonare</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>A message &quot;V-ati abonat cu success&quot; appears.</p>
+
+<p>The user receives a confirmation message on the e-mail address.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="154704" name="Security and Privacy">
+	<node_order><![CDATA[1]]></node_order>
+	<externalid><![CDATA[342]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify that the user data is handled securely and privately.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Scroll to the bottom of the page and click on &quot;Politica de confidentialitate&quot;</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Check if the website uses HTTPS to encrypt data transmision</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Review the privacy policy to ensure proper handling of user data</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The website is using HTTPS and the privacy policy comply with data protection regulations.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="154709" name="Mobile responsiveness">
+	<node_order><![CDATA[2]]></node_order>
+	<externalid><![CDATA[343]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify that the website is responsive and displays correctly on various mobile devices.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Access the Sinsay website on different mobile devices e.g</p>
+
+<ul>
+	<li>Galaxy Note 20 Android 11</li>
+	<li>iPad, iPadOs 14.7.1</li>
+	<li>iphone 12/13 mini, iOS 14.6</li>
+</ul>
+]]></actions>
+	<expectedresults><![CDATA[<p>The website is adapting to different screen sizes and maintain proper functionality and layouts.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+
+<testcase internalid="155805" name="Browser compatibility">
+	<node_order><![CDATA[3]]></node_order>
+	<externalid><![CDATA[523]]></externalid>
+	<version><![CDATA[1]]></version>
+	<summary><![CDATA[<p>Verify if the website opens on Google Chrome, Microsoft Edge and Mozilla Firefox.</p>
+]]></summary>
+	<preconditions><![CDATA[]]></preconditions>
+	<execution_type><![CDATA[1]]></execution_type>
+	<importance><![CDATA[2]]></importance>
+	<estimated_exec_duration></estimated_exec_duration>
+	<status>1</status>
+	<is_open>1</is_open>
+	<active>1</active>
+<steps>
+<step>
+	<step_number><![CDATA[1]]></step_number>
+	<actions><![CDATA[<p>Launch Google Chrome and navigate to the website URL e.g https://www.sinsay.com/ro/ro/</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[2]]></step_number>
+	<actions><![CDATA[<p>Verify that the website loads the main page correctly</p>
+]]></actions>
+	<expectedresults><![CDATA[]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+
+<step>
+	<step_number><![CDATA[3]]></step_number>
+	<actions><![CDATA[<p>Close Google Chrome and repeat step 1 for Microsoft Edge and Mozilla Firefox</p>
+]]></actions>
+	<expectedresults><![CDATA[<p>The website loads correctly.</p>
+]]></expectedresults>
+	<execution_type><![CDATA[1]]></execution_type>
+</step>
+</steps>
+</testcase>
+</testsuite></testsuite></testsuite>
