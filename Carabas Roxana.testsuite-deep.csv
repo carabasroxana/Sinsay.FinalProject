@@ -1,0 +1,208 @@
+TCID;SUITE_NAMES;CASE_NAME;IMPORTANCE;STATUS;SUMMARY;STEP;Result
+22;Smoke testing > Register functionality;Register an account with valid email and password;medium;draft;Verify that the user can create an account.;"Click on ""Cont""";
+22;;;;;;"Click on ""Inregistreaza-te""";
+22;;;;;;"Enter a valid email and password
+
+e.g
+
+
+	email: t760389@gmail.com
+	first name: a
+	last name: a
+	password: 123456
+";
+22;;;;;;"Click on ""Creeaza cont""";"An account is created.
+The user is redirected to the main page."
+23;Smoke testing > Login functionality;Login an user using valid credentials;medium;draft;Verify that the user can log in to the application.;"Click on ""Cont""";
+23;;;;;;"Enter a valid email and password
+
+e.g
+
+
+	email: test@test.ro
+	password: parola
+";
+23;;;;;;"Click on ""Intra in cont""";The user is redirected to the main page.
+26;Smoke testing > Login functionality;Login using facebook;medium;draft;Verify that the user can log in using Facebook.;"Click on ""Cont""";
+26;;;;;;"Click on ""Logare cu Facebook""";The user is redirected to the facebook log in page.
+26;;;;;;Add a valid email and password;
+26;;;;;;"Click on ""Continua ca""";The user is redirected to the main page.
+27;Smoke testing > Search functionality;Search an existing product;medium;draft;Verify that the user receives results according to the search.;"Click on ""Cauta un produs""";
+27;;;;;;"Enter an existing product e.g ""ceas""";
+27;;;;;;"Click on ""Cautare ceas""";The user only receives watches as a result.
+117;Smoke testing > Cart functionality;Add a product to the shopping bag;medium;draft;Verify that the user can add a product to the shopping bag.;"Hover the mouse on ""Femei""";
+117;;;;;;"Click on ""Rochii""";The user receives only dresses as result.
+117;;;;;;"Click on ""Rochie mini cu snur decorativ""";
+117;;;;;;"Select size ""XS"" color ""galben""";
+117;;;;;;"Click on ""Adauga 29,99 RON""";"The product is added to the shopping bag.
+The user receives a message with two options ""Catre cos"" and ""Continuati cumparaturile""."
+30;Smoke testing > Cart functionality;The quantity is updated when adding the same product to shopping bag;medium;draft;Verify that the quantity and price is updated when adding the same product to the shopping bag.;"Hover the mouse on ""Femei""";
+30;;;;;;"Click on ""Rochii""";The user receives only dresses.
+30;;;;;;"Click on "" Rochie mini cu snur decorativ """;
+30;;;;;;"Select size ""XS"" and color ""galben""";
+30;;;;;;"Click on ""Adauga 29,99 RON""";"The quatity and price is updated.
+
+The user receives a message with two options ""Catre cos"" and ""Continuati cumparaturile""."
+29;Smoke testing > Cart functionality;A new entry is added to the shopping bag when the size and color are different;medium;draft;Verify that when adding the same product with a different size and color a new entry is added to the shopping cart;"Hover the mouse on ""Femei""";
+29;;;;;;"Click on ""Rochii""";The user receives only dresses.
+29;;;;;;"Click on "" Rochie mini cu snur decorativ """;
+29;;;;;;"Select size ""XXS"" and color ""albastru""";
+29;;;;;;"Click on ""Adauga 29,99 RON""";"A new line is added in the shopping bag.
+The price is updated.
+
+The user receives a message with two options ""Catre cos"" and ""Continuati cumparaturile""."
+31;Smoke testing > Cart functionality;"A product is deleted when clicking on ""trash"" button";medium;draft;"Verify that a product is deleted when clicking on ""trash bin"" button from shopping bag.";"Click on ""Cos""";
+31;;;;;;"Click on ""Sterge"" button";"The product is deleted from shopping bag.
+
+ "
+111;Smoke testing > Cart functionality;Add a valid discount coupon;medium;draft;Verify if the user can add a valid discount coupon.;"Click on  ""Cos""";
+111;;;;;;"Enter ""EXTRA15RO"" and click ""Adauga""";The price is updated.
+113;Smoke testing > Checkout and Payment functionality;Order a product with cash on delivery;medium;draft;Verify if the user can succesfully order a product;"Click on ""Cos""";
+113;;;;;;"Click on ""Finalizeaza comanda""";
+113;;;;;;"Select ""Curier-Plata livrare""";
+113;;;;;;"Select ""Plata la livrare"" with:
+
+
+	first name: a
+	last name: a
+	postal code: 1234
+	city: iasi
+";
+113;;;;;;"Click on ""Comanda si achita""";"A message ""Comanda a fost plasata"" appears."
+114;Smoke testing > Checkout and Payment functionality;Order a product with online pay;medium;draft;Verify if the use can succesfully order an product with online pay.;"Click on ""Cos""";
+114;;;;;;"Click on ""Finalizeaza comanda""";
+114;;;;;;Select the shipping method e.g Ridicare din magazin;
+114;;;;;;"Select the desired shop e.g ""Șoseaua București-Ploiești Km. 20 077015 Balotești"" and click on ""Alege""";A modal/dialog with client details appears.
+114;;;;;;"Enter the client details
+
+e.g
+
+
+	first name: a
+	last name: a
+	phone: 123456789
+
+
+ ";
+114;;;;;;"Click on ""Salveaza""";
+114;;;;;;"Select the desired payment e.g ""Visa/Mastercard""
+
+
+	
+	VISA
+	
+	
+	4929592152100893
+	
+	
+	6/2026
+	
+	
+	705
+
+	 
+	
+";
+114;;;;;;"Click on ""Cumpara si achita""";The user is redirected to the bank app to confirm the payment.
+244;Smoke testing > Account functionality;User profile update;medium;draft;Verify if the user can update the information in their profile.;"Hover the mouse on ""Cont""";
+244;;;;;;"
+Click on ""Datele mele""";
+244;;;;;;Update the e-mail address e.g a@a.ri;
+244;;;;;;"Click on ""Salveaza modificarile""";The profile information is succesfully updated and displayed correctly in the user's account.
+245;Smoke testing > Account functionality;Loggout from account;medium;draft;Verify if the user can log out from their account.;"Hover the mouse on ""Cont""";
+245;;;;;;"Click on ""Delogare""";The user is logged out from the account and redirected to the main page.
+109;Functional testing > Register functionality;Register an account with invalid email and password;medium;draft;Verify if an user can register using invalid credentials.;"Hover the mouse on ""Cont"" and click on ""Inregistreaza-te""";
+109;;;;;;"Enter invalid credentials
+
+e.g
+
+
+	email: testtest.com
+	first name: a12
+	last name: a12
+	password: 1
+";
+109;;;;;;"Click on ""Creeaza cont""";"A message ""Contul nu poate fi creat. Caractere invalide"" appears."
+108;Functional testing > Login functionality;Login an user with invalid email and password;medium;draft;Verify if the user can login using invalid credentials.;"Hover the mouse on ""Cont"" and click on ""Conecteaza-te""";
+108;;;;;;"Enter invalid credentials
+
+e.g
+
+
+	email: testt.com
+	password: 123
+";"A message ""Acest cont nu exista"" appears."
+107;Functional testing > Login functionality;Login an user with a valid email and an invalid password;medium;draft;Verify if an user can login with an invalid password.;"Hover the mouse on ""Cont"" and click on ""Conecteaza-te""";
+107;;;;;;"Enter ""test@test.ro"" e-mail and ""123"" for password";"A message ""Logare sau parolă nevalidă."" appears."
+105;Functional testing > Login functionality;Verify forgot password functionality;medium;draft;Verify if the user can request and receives a valid password reset link in case of a forgotten password.;"Hover the mouse on ""Cont"" and click on ""Conecteaza-te""";
+105;;;;;;"Click on ""Mi-am uitat parola""";A modal/dialog appears.
+105;;;;;;"Add a valid email address
+
+e.g: t760389@gmail.com";" 
+
+ "
+105;;;;;;"Click on ""Trimite""";The user receives an e-mail with a link to change the password.
+321;Functional testing > Language functionality;Change the language;medium;draft;Verify if the user can change the language.;"Click on ""RO""";The user is redirected to the main page for changing the country.
+110;Functional testing > Search functionality;Search a non-existing product;medium;draft;Verify if the user is gettimg results for a non-existing product;"Click on ""Cauta produs""";
+110;;;;;;"Enter a non-existing product e.g ""bormasina""";"A message ""Niciun rezultat"" appears."
+341;Functional testing > Search functionality;Product details;medium;draft;Verify that the product details page displays accurate information about a selected product.;Navigate to a product category e.g Femei - Rochii;
+341;;;;;;"Click on a specific product to view its details e.g ""Rochie mini cu model""";The product details page shows the product's name, description, price and images.
+112;Functional testing > Cart functionality;Add an invalid discount coupon;medium;draft;Verify if the user can use an invalid coupon.;"Click on ""Cos""";
+112;;;;;;"Enter ""Minus70"" and click ""Adauga""";"A message ""Cuponul introdus este invalid"" appears."
+340;Functional testing > Account functionality;Visualization of Orders;medium;draft;Verify the functionality of visualizing the user's orders.;"Hover the mouse on ""Cont""";
+340;;;;;;"Click on ""Comenzile mele""";The orders are displayed from the mosdt recent to the oldest.
+330;Functional testing > Filtering & Sortening functionality;Filter a dress by size;medium;draft;Verify if the user can filter a dress by size.;"Hover the mouse on ""femei""";
+330;;;;;;"On section ""imbracaminte"" click on ""rochii""";
+330;;;;;;"Click on ""marime""";
+330;;;;;;"Click on ""L""";Only dresses with size L appears.
+326;Functional testing > Filtering & Sortening functionality;Filter a dress by color;medium;draft;Verify if the user can filter a dress by color.;"Hover the mouse on ""femei""";
+326;;;;;;"On section ""imbracaminte"" click on ""rochii""";
+326;;;;;;"Click on ""culori""";
+326;;;;;;"Click on ""negru"", ""roz"" , ""crem"" , ""maro"" , ""alb""";"Only ""negru"", ""roz"" , ""crem"" , ""maro"" , ""alb"" colors are displayed."
+331;Functional testing > Filtering & Sortening functionality;Filter a dress by price;medium;draft;Verify if the user can effectively set a specific price range.;"Hover the mouse on ""femei""";
+331;;;;;;"On section ""imbracaminte"" click on ""rochii""";
+331;;;;;;"Click on ""price""";
+331;;;;;;"Add
+
+
+	""preturi de la"" : 30
+	""preturi pana la"" : 60
+";
+331;;;;;;"Click on ""Filtru""";The user receives dresses betwen 30-60 range.
+324;Functional testing > Filtering & Sortening functionality;Filter a dress by length;medium;draft;Verify if the user can filter a dress by length.;"Hover the mouse on ""femei""";
+324;;;;;;"On section ""imbracaminte"" click on ""rochii""";
+324;;;;;;"Click on ""lungime""";
+324;;;;;;"Click on ""maxi""";
+324;;;;;;"Click on ""filtru""";"Only ""maxi"" length appears."
+323;Functional testing > Filtering & Sortening functionality;Filter a dress by type;medium;draft;"Verify if the user can search a dress using ""croi"" filtering.";"Hover the mouse on ""femei""";
+323;;;;;;"On section ""imbracaminte"" click on ""rochii""";
+323;;;;;;"Click on ""croi""";
+323;;;;;;"Click on ""mulat""";"Only dresses with ""croi mulat"" type appears."
+327;Functional testing > Filtering & Sortening functionality;Sort a product in ascending order;medium;draft;Verify if the user can sort a product in ascending order.;"Hover the mouse on ""femei""";
+327;;;;;;"On section ""imbracaminte"" click on ""rochii""";
+327;;;;;;"Click on ""sortare dupa""";
+327;;;;;;"Click on ""pret crescator""";
+327;;;;;;"Click on ""sortare""";The dresses are sorted in ascending order.
+328;Functional testing > Filtering & Sortening functionality;Sort a product in descending order;medium;draft;Verify if the user can sort a product in descending order.;"Hover the mouse on ""femei""";
+328;;;;;;"On section ""imbracaminte"" click on ""rochii""";
+328;;;;;;"Click on ""sortare dupa""";
+328;;;;;;"Click on ""pret descrescator""";
+328;;;;;;"Click on ""sortare""";The dresses are sorted in descending order.
+339;Functional testing > Main page functionality;Newsletter subscription and notification reception;medium;draft;Verify the functionality of newsletter subscription and notification reception.;On the main page, scroll to the bottom of the page;
+339;;;;;;"Add  a valid email address e.g ""t760389@gmail.com""";
+339;;;;;;"Click on ""Abonare";"A message ""V-ati abonat cu success"" appears.
+
+The user receives a confirmation message on the e-mail address."
+342;Functional testing > Main page functionality;Security and Privacy;medium;draft;Verify that the user data is handled securely and privately.;"Scroll to the bottom of the page and click on ""Politica de confidentialitate""";
+342;;;;;;Check if the website uses HTTPS to encrypt data transmision;
+342;;;;;;Review the privacy policy to ensure proper handling of user data;The website is using HTTPS and the privacy policy comply with data protection regulations.
+343;Functional testing > Main page functionality;Mobile responsiveness;medium;draft;Verify that the website is responsive and displays correctly on various mobile devices.;"Access the Sinsay website on different mobile devices e.g
+
+
+	Galaxy Note 20 Android 11
+	iPad, iPadOs 14.7.1
+	iphone 12/13 mini, iOS 14.6
+";The website is adapting to different screen sizes and maintain proper functionality and layouts.
+523;Functional testing > Main page functionality;Browser compatibility;medium;draft;Verify if the website opens on Google Chrome, Microsoft Edge and Mozilla Firefox.;Launch Google Chrome and navigate to the website URL e.g https://www.sinsay.com/ro/ro/;
+523;;;;;;Verify that the website loads the main page correctly;
+523;;;;;;Close Google Chrome and repeat step 1 for Microsoft Edge and Mozilla Firefox;The website loads correctly.
