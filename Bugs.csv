@@ -1,0 +1,44 @@
+ID,Project,Reporter,Priority,Severity,Reproducibility,Category,Date Submitted,OS,OS Version,Platform,Summary,Status,Description,Precondition,Steps to reproduce,Actual result,Expected result
+53003,QA 51 Final Project,roxana.carabas,high,major,always,Bug,7/14/2023,Windows,10,Desktop,[Account] Error message appears when changing the email address,new,An error message appears when changing the email address in a@a.ri,User must be logged in,"Step 1: Hover the mouse on ""Contul meu""",An error message from backend appears.,"An error message ""V? rug?m s? introduce?i numai caractere valide"" appears."
+,,,,,,,,,,,,,,,"Step 2: Click on ""datele mele""",,
+,,,,,,,,,,,,,,,"Step 3: Under ""adresa de e-mail"" type a@a.ri",,
+,,,,,,,,,,,,,,,"Step 4: Click on ""salveaza modificarile""",,
+,,,,,,,,,,,,,,,,,
+53001,QA 51 Final Project,roxana.carabas,normal,normal,always,Bug,7/14/2023,Windows,10,Desktop,[Filtering] Length filtering does not display correct results,new,"When clicking on ""maxi"" length, the results also show a midi dress.",-,"Step 1: Hover the mouse on ""femei""","One ""midi"" dress appears.","Only ""maxi"" length appears."
+,,,,,,,,,,,,,,,"Step 2: On section ""imbracaminte"" click on ""rochii""",,
+,,,,,,,,,,,,,,,"Step 3: Click on ""lungime""",,
+,,,,,,,,,,,,,,,"Step 4: Click on ""maxi""",,
+,,,,,,,,,,,,,,,"Step 5: Click on ""filtru""",,
+,,,,,,,,,,,,,,,,,
+53325,QA 51 Final Project,roxana.carabas,normal,normal,have not tried,Feature,7/29/2023,Windows,10,Desktop,Add to Favorite feature,new,"	The ""Add to Favorites"" feature offers users a convenient way to save and organize products they are interested in, improving the overall shopping experience.
+Users can easily return to their favorited items at a later time, reducing the need for repetitive product searches. ", - ,,,
+,,,,,,,,,,,,,,,,,
+53002,QA 51 Final Project,roxana.carabas,normal,normal,always,Bug,7/14/2023,Windows,10,Desktop,[Filtering] Type filtering shows a product from another category,resolved,"When clicking on ""croi mulat"", the results also show a product from another category.",-,"Step 1: Hover the mouse on ""femei""","One ""salopeta cu bretele subtiri"" appears.","Only dresses with ""croi mulat"" type appears."
+,,,,,,,,,,,,,,,"Step 2: On section ""imbracaminte"" click on ""rochii""",,
+,,,,,,,,,,,,,,,"Step 3: Click on ""croi""",,
+,,,,,,,,,,,,,,,"Step 4: Click on ""mulat""",,
+,,,,,,,,,,,,,,,,,
+53005,QA 51 Final Project,roxana.carabas,normal,normal,always,Bug,7/14/2023,Windows,10,Desktop,[Account] The e-mail address can not be changed without a new password,new,"When attempting to change the email address, a phone number and a new password must be entered.",The used is logged in,"Step 1: Hover the mouse on ""Contul meu""","A message ""Acest camp este obligatoriu"" appears.",The email address is saved.
+,,,,,,,,,,,,,,,"Step 2: Click on ""datele mele""",,
+,,,,,,,,,,,,,,,"Step 3: Type ""t760389@gmail.com""",,
+,,,,,,,,,,,,,,,"Step 4: Click on ""Salveaza modificarile""",,
+,,,,,,,,,,,,,,,,,
+53162,QA 51 Final Project,roxana.carabas,high,major,always,Improvement,7/21/2023,Windows,10,Desktop,[Register] Account created without email confirmation,new,The user can register without an existing email address,-,"1. Hover the mouse on ""Cont""",The user is redirected to the main page.,The user receives a message for email confirmation.
+,,,,,,,,,,,,,,,"2. Click on ""Creeaza un cont""",,
+,,,,,,,,,,,,,,,"3. Enter ""test@test.ro"" for email, ""a"" for first and last name and ""parola"" for password",,
+,,,,,,,,,,,,,,,"4. Click on ""Creeaza un cont""",,
+,,,,,,,,,,,,,,,,,
+53000,QA 51 Final Project,roxana.carabas,normal,normal,always,Bug,7/14/2023,Windows,10,Desktop,[Filtering] Color filtering does not display correct results,new,"When clicking on ""negru"", ""roz"" , ""crem"" , ""maro"" , ""alb"", colors from other categories are displayed.",-,"Step 1: Hover the mouse on ""femei""",Colors from other categories are displayed.,"Only ""negru"", ""roz"" , ""crem"" , ""maro"" , ""alb"" colors are displayed."
+,,,,,,,,,,,,,,,"Step 2: On section ""imbracaminte"" click on ""rochii""",,
+,,,,,,,,,,,,,,,"Step 3: Click on ""culori""",,
+,,,,,,,,,,,,,,,"Step 4: Click on ""negru"", ""roz"" , ""crem"" , ""maro"" , ""alb""",,
+,,,,,,,,,,,,,,,,,
+52999,QA 51 Final Project,roxana.carabas,normal,normal,always,Bug,7/14/2023,Windows,10,Desktop,[Sortening] Descending sort shows a product from another category,new,"When clicking on ""pret descrescator"" a product from another category appears.",-,"Step 1: Hover the mouse on ""femei""","The descending sort displays ""salopeta cu bretele"".",The dresses are sorted in descending order.
+,,,,,,,,,,,,,,,"Step 2: On section ""imbracaminte"" click on ""rochii""",,
+,,,,,,,,,,,,,,,"Step 3: Click on ""sortare dupa""",,
+,,,,,,,,,,,,,,,"Step 4: Click on ""pret descrescator""",,
+,,,,,,,,,,,,,,,"Step 5: Click on ""sortare""",,
+,,,,,,,,,,,,,,,,,
+52998,QA 51 Final Project,roxana.carabas,normal,normal,always,Bug,7/14/2023,Windows,10,Desktop,[Search bar] The search bar does not display correct results,new,"	The search bar does not display correct results when typing ""ceas"".",-,Step 1: Click on search bar,The search contains other products besides watches.,The search contains only watches.
+,,,,,,,,,,,,,,,"Step 2: Type ""ceas""",,
+,,,,,,,,,,,,,,,"Step 3: Click on ""cautare ceas""",,
